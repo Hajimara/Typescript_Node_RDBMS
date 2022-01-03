@@ -2,7 +2,7 @@ import { config } from 'dotenv';
 import express, { NextFunction, Request, Response, ErrorRequestHandler } from "express";
 import cors from 'cors';
 import path from 'path';
-
+import mysql from './database/mysql';
 import router from './api';
 
 const app = express();
@@ -19,6 +19,8 @@ app.use('/api', router)
 app.get('/test', (req: Request, res: Response, next: NextFunction) => {
    res.send('webcome!')
 });
+
+mysql();
 
 app.use((err: ErrorRequestHandler, req: Request, res: Response, next: NextFunction) => {
     console.error(err);
