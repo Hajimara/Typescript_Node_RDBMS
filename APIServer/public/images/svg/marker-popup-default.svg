@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="74" height="82.349" viewBox="0 0 74 82.349">
+    <defs>
+        <filter id="a" x="0" y="0" width="74" height="82.349" filterUnits="userSpaceOnUse">
+            <feOffset dy="3"/>
+            <feGaussianBlur stdDeviation="3" result="blur"/>
+            <feFlood flood-opacity=".278"/>
+            <feComposite operator="in" in2="blur"/>
+            <feComposite in="SourceGraphic"/>
+        </filter>
+    </defs>
+    <g style="filter:url(#a)">
+        <path data-name="패스 19521" d="M64 33.8C64 53.72 37 69 37 69S10 53.71 10 33.8a27 27 0 0 1 54 0z" transform="translate(0 .2)" style="fill:#2d5cc8;stroke:#fff;stroke-width:2px"/>
+    </g>
+    <path data-name="패스 19522" d="M37 16a18 18 0 1 0 18 18 17.963 17.963 0 0 0-18-18zm-3 7h3v2h-3a1 1 0 0 1 0-2zm4 0h3a1 1 0 0 1 0 2h-3zm-7.46 2.74h12.92a1.892 1.892 0 0 1 1.66 2.05l.83 4.21H46a2 2 0 0 1 2 2v6a1 1 0 0 1-1 1H27a1 1 0 0 1-1-1v-6a2 2 0 0 1 2-2h.05l.83-4.2a1.9 1.9 0 0 1 1.66-2.06zm.35 2v.25l-.79 3.97h13.8l-.78-3.97v-.25H30.88zM30.5 35a1.5 1.5 0 1 0 1.5 1.5 1.5 1.5 0 0 0-1.5-1.5zm13 0a1.5 1.5 0 1 0 1.5 1.5 1.5 1.5 0 0 0-1.5-1.5zM27 42h4v1a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1zm16 0h4v1a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1z" style="fill:#fff" transform="translate(0 .2)"/>
+</svg>
