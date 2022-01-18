@@ -1,9 +1,12 @@
 @font-face {
     font-family: Source_Han_Serif;
-    src: url("../../APIServer/public/fonts/Source_Han_Serif/SourceHanSerifKR-VF.otf") format("otf");
+    src: url("http://localhost:10000/api/public/fonts/Source_Han_Serif/SourceHanSerifKR-VF.otf") format("otf");
     font-weight: normal;
 }
 
 * {
     font-family: Source_Han_Serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
 }

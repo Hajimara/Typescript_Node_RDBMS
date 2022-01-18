@@ -1,0 +1,11 @@
+.MuiGrid-container {
+    height: inherit;
+}
+
+.MuiGrid-item {
+    height: inherit;
+}
+
+.MuiGrid-grid-xs-2 {
+    border-right: rgba(203, 203, 203, 0.65) dashed 1px;
+}

@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from 'react';
-import { Box } from '@mui/material';
+import {Box, Grid} from '@mui/material';
 import { requests } from "../apis";
 import {CheckBox} from "@mui/icons-material";
+import '../style/Dashboard.css';
 
 const Dashboard = () => {
     const [title, setTitle] = useState('Not Found!');
@@ -12,11 +13,15 @@ const Dashboard = () => {
             console.log(res);
         });
     });
+
     return (
-        <>
-            {title}
-            <CheckBox />
-        </>
+        <Grid container spacing={2}>
+            <Grid item xs={2}>
+            {/*  menu bar  */}
+            </Grid>
+            <Grid item xs={10}>
+            </Grid>
+        </Grid>
     )
 }
 
