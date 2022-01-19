@@ -13,7 +13,7 @@ module.exports = {
         }
     },
     entry: {
-        'js/app': ['./src/App.tsx']
+        'js/app': ['./src/index.tsx']
     },
     output: {
         path: path.resolve(__dirname, 'dist/'),
