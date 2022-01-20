@@ -19,6 +19,7 @@ module.exports = {
         path: path.resolve(__dirname, 'dist/'),
         publicPath: '/',
     },
+    devtool: "source-map",
     module: {
         rules: [
             {
@@ -54,7 +55,7 @@ module.exports = {
     },
     resolve: {
         // modules: [path.resolve(__dirname, 'src'), 'node_modules'],
-        extensions: ['.js', '.jsx', '.ts', '.tsx'],
+        extensions: ['.Webpack.js', '.ts', '.tsx', '.js', '.jsx'],
     },
     plugins: [
         new HtmlWebpackPlugin({

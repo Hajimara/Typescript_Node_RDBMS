@@ -13,5 +13,5 @@ export async function apiGetCheckSession(info: GetCheckSessionPramType) {
         }
     );
 
-    return response.data;
+    return response;
 }

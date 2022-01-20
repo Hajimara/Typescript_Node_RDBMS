@@ -3,8 +3,9 @@ import { ActionType } from "typesafe-actions";
 import * as actions from './actions';
 
 export type testState = {
-    testStringArrData: string[];
-    testObjectData: { a: string[]; b: number, c: string};
+    status: number;
+    statusText: string;
+    data: any;
 }
 
 export type testAction = ActionType<typeof actions>;
@@ -14,7 +15,7 @@ export interface GetCheckSessionPramType {
     id: string;
 }
 export interface GetCheckSessionResponseType {
-    code: string;
-    message: string;
-    payload: any;
+    status: number;
+    statusText: string;
+    data: any;
 }

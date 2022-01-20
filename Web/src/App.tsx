@@ -24,6 +24,7 @@ const App: React.FC = () => {
             id: '123'
         };
 
+        console.log(id);
         dispatch(getCheckSessionAsync.request(id));
     });
 

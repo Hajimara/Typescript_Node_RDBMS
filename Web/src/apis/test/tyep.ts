@@ -2,8 +2,10 @@
 export interface GetCheckSessionPramType {
     id: string;
 }
+
+// api 와 saga에서 response 타입 적용
 export interface GetCheckSessionResponseType {
-    code: string;
-    message: string;
-    payload: any;
+    statusText: string;
+    status: number;
+    data: any;
 }

@@ -1,5 +1,5 @@
 import {createAction, createAsyncAction} from "typesafe-actions";
-import {GetCheckSessionPramType, GetCheckSessionResponseType} from "../../apis/test/tyep";
+import {GetCheckSessionPramType, GetCheckSessionResponseType} from "./types";
 import {AxiosError} from "axios";
 
 // as const 상수 선언
